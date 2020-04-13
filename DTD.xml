@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI [
+<!ELEMENT TEI (header,facsimile,testo)> 
+<!-- главный-элемент (под-элемент1, под-элемент2, под-элемент3) -->
+<!-- описание елементов: название и тип-->
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA)>
+
+<!-- описание аттрибутов для каждого элемента и для каждого аттрибута-->
+<!-- аттрибутлист имя-элемента, имя-аттрибутаб тип-аттрибута, значение-аттрибута -->
+<!ATTLIST header type CDATA #FIXED "intestazione">
+<!ATTLIST header lang NMTOKEN #IMPLIED>
+<!ATTLIST facsimile source CDATA #REQUIRED>
+<!ATTLIST facsimile ref IDREFS #IMPLIED>
+<!ATTLIST testo id ID #REQUIRED>
+<!ATTLIST testo type CDATA #IMPLIED>
+]>
+<!-- сам файл и значения для него -->
+<TEI>
+<header> </header>
+<facsimile> </facsimile>
+<testo> </testo>
+</TEI>
