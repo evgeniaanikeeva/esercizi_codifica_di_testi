@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>Evgeniia Anikeeva</teiHeader>
+ <facsimile>Student</facsimile>
+ <text>University of
+ <seg>
+ Pisa
+ </seg>
+ Italy
+ </text>
+ 
+<!ATTLIST header 
+    type #FIXED    CDATA
+    lang #IMPLIED  NMTOKEN 
+>
+
+<!ATTLIST facsimile
+     source #REQUIRED 
+     ref #IMPLIED IDREFS
+>
+
+<!ATTLIST testo
+     id #REQUIRED ID
+     type #IMPLIED "Blablabla"
+>
+ 
+</TEI>

@@ -1,0 +1,10 @@
+<!ATTLIST header (type,lang)>
+<!ATTLIST fascimile (source,ref)>
+<!ATTLIST testo (id,type)>
+
+<!ATTLIST type (#CDATA)>
+<!ATTLIST lang (#IMPLIED)>
+<!ATTLIST source (#REQUIRED)>
+<!ATTLIST ref (#IDREFS)>
+<!ATTLIST id (#REQUIRED)>
+<!ATTLIST type (#IMPLIED)>

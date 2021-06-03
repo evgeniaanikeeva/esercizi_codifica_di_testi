@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE tei SYSTEM "tei.dtd">
+
+<header>
+   <type>intestazione</type>
+   <lang>NMTOKEN</lang>
+</header>
+
+
+<fascimile>
+   <source></source>
+   <ref>IDREFS</ref>
+</fascimile>
+
+
+
+<testo>
+   <id>ID</id>
+   <type>content</type>
+</testo>

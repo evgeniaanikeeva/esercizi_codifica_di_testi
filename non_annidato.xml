@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<noNested>
+    <nested>
+    Questo è contenuto
+    </nested>
+
+    <nogood>
+        <errore>
+    qui ci sono più gerarchie
+    </nogood>
+
+    </errore>
+
+</noNested>
