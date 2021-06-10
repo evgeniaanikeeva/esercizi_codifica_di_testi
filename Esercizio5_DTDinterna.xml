@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Я соединила одну DTD внутреннюю -->
+<!-- COLLEGO UNA DTD INTERNA / Я соединила одну внутреннюю DTD-->
 <!DOCTYPE TEI [
     <!ELEMENT TEI (header, facsimile?, text+)>
     <!ELEMENT header (#PCDATA)>
@@ -19,7 +19,7 @@
         type CDATA #IMPLIED>
 ]>
 
-<!--Задание
+<!--Задание ESERCIZIO
     
     root: TEI
     Figli:
