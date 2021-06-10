@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE text SYSTEM "tei_all.dtd" >
+
+<!-- ESERCIZIO ЗАДАНИЕ НОМЕР 8
+Marcare un testo plain text di circa 3000 caratteri a piacere <pc type="dot">.</pc>
+1 Inserire prologo XML
+2 marcare la struttura usando gli elementi fin qui descritti in particolare marcare tutti i paragrafi usando <p> e la struttura editoriale usando <div>
+3 verificare che sia ben formato con xmllint 
+4 salvare il file XML su github
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Grumi</title>
+                <author>Evgeniia ANikeeva</author>
+                <respStmt>
+					<resp>Responsabilità di</resp>
+					<name>Evgeniia Anikeeva</name>
+				</respStmt>
+            </titleStmt>
+		</fileDesc>
+	</teiHeader>
+	
+<text>
+    <body>
+      <div>
+        <head>Un racconto apocalittico</head>
+        <p>Quando si svegliò sotto il cielo smorto la sua zolla fluttuava senza controllo sul mare di melma, 
+        come un tocco di feci umane galleggiante alla deriva nei liquami di una fogna. 
+        Sbadigliò, si staccò un grumo di fango da un occhio e si alzò con uno sforzo. 
+        Ossa doloranti in quel mondo di perenne umidità. Le nubi erano un arcobaleno di grigi, 
+        cupe sfumature che rendevano le distese marine un’immensa cloaca buia su cui gli ultimi coaguli di umanità attendevano di essere risucchiati da un momento all’altro, 
+        l’intero pianeta che implodeva in un rigurgito di terra e acqua in cui ribollivano corpi, città, rocce, foreste. 
+        Un apocalittico guazzabuglio di tutti i regni della natura finalmente amalgamati e ritornati allo stadio del brodo primordiale. 
+        Chi sei, oscuro dio che rimescoli in questo calderone tutto ciò che hai creato? Guardò all’orizzonte.
+        </p>
+
+        <p>Il giorno prima gli era parso di scorgere un’altra zolla, ma con la pioggia che creava piccole esplosioni sulla superficie molle del mare forse s’era sbagliato.
+        Rabbrividì. Dalla cambusa, una cassa di munizioni che aveva svuotato in mare mesi prima, prese un pesce, lo ripulì dalla fanghiglia, 
+        ne staccò la testa con un morso e con un dito lo aprì in due e ne tolse le interiora.
+        Poi sedette e mangiò, i pensieri che vagavano fra il futuro e il passato. 
+        Chi ha mandato questa punizione diluviale, piaga precambrica che ci annega ogni giorno? Sei tu, dio senza nome?
+        Gettò la lisca in mare e prese a passeggiare avanti e indietro per la sua zolla, 
+        un blocco di terra e erbaccia di poche decine di metri quadrati, unico arredamento una cassetta di legno, 
+        un lungo bastone su cui aveva attaccato un gancio ricavato da del fil di ferro e uno straccio bagnato e infangato su cui dormiva la notte.
+        Lontano, un’automobile venne a galla in un gorgoglio di bolle marroni per immergersi di nuovo come un sub in apnea risalito a respirare. 
+        Strizzò gli occhi come un miope e cercò di penetrare lo strato nebuloso che gravava sul mare ma nulla si muoveva quel giorno.
+        Si ritrovò a considerare la possibilità di essere l’ultimo rimasto su quei grumi flottanti di terra, 
+        frammenti di chissà quale continente fratturato come arenaria desertica sotto il sole rovente, 
+        sismi parossistici non provocati da siccità, bensì da un nucleo stanco di sopportare il peso di ere geologiche ed evoluzioni e continui disastri e olocausti ambientali.
+        Prese il bastone che fungeva da arpione e cominciò a scandagliare il mare in cerca di cibo o qualcosa di utile.
+        Avanzi di una specie giunta al tramonto. Rimestò nel fango ruotando il legno come uno stregone in procinto di concludere una qualche pozione miracolosa.
+        E poi avanti e indietro come se remasse. Si spostava di continuo da un lato all’altro della zolla seguendo un suo oscuro piano, 
+        borbottando di quando in quando e sputando schizzi di melma che gli arrivavano in bocca.
+        A questo ci hai dunque condannato? A vivere di ciò che hai tolto agli altri?
+        </p>
+
+        <p>A ogni minima resistenza dell’arpione tirava su e gettava in terra il pescato. 
+        Mucchi informi di poltiglia scura che si ammassavano uno sull’altro come una piccola discarica vomitata dal mare. 
+        Dopo un paio d’ore si fermò e cominciò a controllare quello che aveva preso.
+        Un pezzo di corda, che tenne. Un arto tranciato, non seppe dire se di uomo o donna, le dita della mano contratte nell’ultimo spasmo. L’annusò.
+        Odore di terra, di carne non viva. Lo mise da parte. Stracci. Una bottiglia rotta, che ributtò in mare.
+        Un cavo elettrico, che cominciò a tirar fuori dal pantano, metro dopo metro finché accanto a lui si formò un rotolo che sembrava non aver fine.
+        È forse il filo che tiene ancora in vita questo pianeta? A me hai affidato l’incarico di questa ultima eutanasia? Un pesante pezzo di stoffa, forse una coperta.
+        Due barattoli.
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>
+<!--studentessa: Evgeniia Anikeeva
+    matricola: 559161
+    corso: codifica di testi 19-20-->
