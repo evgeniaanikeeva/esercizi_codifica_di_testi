@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Упражнение: исправьте исходный код
+
+    ORIGINAL DOCUMENT:
+    <?xml version="1.0" encoding="utf-8"?>
+    <text>
+        il primo xml con validazione
+    </text>
+    <text />
+    
+    
+    VALIDATION: 
+    "Extra content at the end of the document
+        <text />"
+        
+    Исправляю, удалив <text />, тег <text> уже закрыт в строке 11 с помощью </text>,
+     <text /> - правильный тег, в <text /> слишком много места после слова текст.
+    
+    
+    CORRECT:
+    <text>
+        il primo xml con validazione
+    </text>
+    <text/>
+    -->
+
+
+<!-- Упражнение: добавить дочерний un figlio (child) элемент к элементу elemento
+    <text>
+        <figlio>
+            il
+        </figlio> 
+        primo xml con validazione
+    </text>
+-->
+
+
+
+<!-- Упражнение добавить брата сиблингом fratello sibling -->    
+    <text> <!-- padre -->
+        <figlio> <!-- primo figlio -->
+            il 
+        </figlio>
+        <figlia> <!-- sorella che é sibling con fratello hanno lo stesso padre -->
+            primo
+        </figlia>
+        xml con validazione
+    </text>
+
+
+<!-- studentessa: Evgeniia Anikeeva
+    matricola: 559261
+    corso: codifica di testi 19-20 -->

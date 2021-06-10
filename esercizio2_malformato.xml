@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE text SYSTEM "tei_all.dtd" > 
+<!-- Тут соединяю DTD внешнюю, стандартный документ tei_all.dtd -->
+
+<!-- Создать два документы в XML с представленными вдумя иерархиями, первый будет кодифицирован не правильно, второй внедняя пустые элементы,
+которые будут потом решат проблему перекрывающей иерархии -->
+<!-- VERSIONE CON GERARCHIE SOVRAPPOSTE -->
+
+<text>
+    <titolo> Упражнение с перекрывающимися иерархиями </titolo>
+    <intestazione> Неправильно закодированный XML-файл, перекрывающиеся элементы </intestazione>
+
+    <pagina n="1">
+        <div id="div1"> Какая ошибка?
+            <p id="p1"> Ошибка заключается в перекрытии иерархий и в этом случае.</p>
+            <p id="p2"> Этот div закрывается после последнего p, и это нормально, но тег страницы создает проблемы.</p>
+    </pagina>
+    <pagina n="2"> 
+            <p id="p3"> Конецю </p>   
+        </div>
+    </pagina>
+<!--В приведенном выше примере ошибка заключается в закрытии тега </pagina> перед тегом </div> и после закрытия тега div перед страницей.-->
+</text>
+
+
+<!-- VALIDAZIONE. Проверяем правильность 
+
+es_malformato.xml:17: parser error : Opening and ending tag mismatch: div line 14 and pagina
+    </pagina>
+             ^
+es_malformato.xml:20: parser error : Opening and ending tag mismatch: pagina line 18 and div
+        </div>
+              ^
+-->
+
+<!--
+    studentessa: Evgeniia Anikeeva
+    matricola: 559161
+    corso: codifica di testi 19-20
+-->

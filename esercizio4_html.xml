@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <content>
+        <htmlCode>
+            <![CDATA[
+                <h1> Основной титул </h1>
+                <p> Первый1 <i>параграф</i> </p>
+                <p> Второй2 <i>параграф</i> </p>
+                <p> Третий3 <i>параграф</i> </p>
+                
+            ]]>]
+        </htmlCode>
+    </content>
+</root>
+<!--studentessa: Evgeniia Anikeeva
+    matricola: 559261
+    corso: codifica di testi 19-20-->

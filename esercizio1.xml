@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- This document contains data on Codifica di Testi.
+Filename: project.xml
+Author: Anikeeva Evgeniia
+Date: 05.04.2021 -->
+
+<radice>
+    <figlio n="1">
+    </figlio>
+
+    <figlio n="2">
+    <figlio>
+</radice>
+
+
+<!--
+    studente:  Anikeeva Evgeniia
+    matricola: 559261
+    corso: codifica di testi 19-20
+-->
