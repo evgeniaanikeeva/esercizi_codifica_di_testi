@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<TEI>
+	<!--Задание номер 9-->
+	<!--esempio puntatore e note-->
+	<note n="1" place="foot"> Мы видим в <ref target=‘‘#глава1.12’’>главe первой, параграф 12</ref></note>
+
+	<!--esempio lista список, glossario глоссарий-->
+	<list type="gloss">
+		<head>Wish list:</head>
+			<label>1000</label>
+			<item>euro;</item>
+			<label>5000</label>
+			<item>dollari;</item>
+			<label>1.000000</label>
+			<item>rubli;</item>
+			<label>10.000</label>
+			<item>grivnia.</item>
+	</list>
+
+	<!--esempio="referring string e name"-->
+	<p>Его звали <rs type="person"> по батюшке </rs> как <name type="person">Владимирович</name>.</p>
+
+</TEI>
+
+<!--studentessa: Evgeniia Anikeeva 
+    matricola: 559261
+    corso: codifica di testi 19-20-->
