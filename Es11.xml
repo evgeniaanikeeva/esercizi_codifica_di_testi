@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI>
+ <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <head>Vincenzo Bellini a Carlo Pepoli</head>
+                <respStmt>
+                    <resp>Responsabilità di</resp>
+                    <name>Evgeniia Anikeeva</name>
+                </respStmt>
+            </titleStmt>
+            <sourceDesc>
+            <bibl> 
+                   <title>Frammento di lettera Vincenzo Bellini</title>
+                    <author>Vincenzo Bellini</author>
+                    <date when="26-06-1834">26 June 1834</date>
+            </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+      <text>
+        <body>
+            <div>
+        <p>
+            <dateline>
+            <date when="06-26"><w xml:lang="en">Jun</w>
+            <num value="26">26</num>
+            </date>
+            <pc>:</pc>
+            <name type="place" xml:lang="fr"><w>Puteaux</w></name>
+            <w>n</w>
+            <pc>°</pc>
+            <pc>:</pc>
+            <num value="19">19</num>
+            <w>bis</w> 
+            <unclear><w>rampe</w></unclear>
+            <hi rend="underline"><w>de</w>
+            <w>Neuilly</w></hi>
+           </dateline>
+        </p>
+        <p>
+        <w>Mio</w>
+        <w>caro</w>
+        <name type="person">
+            <choice>
+            <orig>Carluccio</orig>
+            <reg>Carlo</reg>
+            </choice>
+        </name>
+        </p>
+        <p>
+        <w>Avendo</w>
+        <unclear reason="illegible"><w>steso</w></unclear>
+        <w>l</w>
+        <pc>'</pc>
+        <w>intero</w>
+        <emph><w>duetto</w></emph>
+        </p>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+<!--studentessa: Evgeniia Anikeeva
+    matricola: 559161
+    corso: codifica di testi 19-20-->
