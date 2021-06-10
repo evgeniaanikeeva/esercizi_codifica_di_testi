@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI>
+ <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title>cartolina</title>
+                <respStmt>
+                    <resp>Responsabilità di</resp>
+                    <name>Evgeniia Anikeeva </name>
+                </respStmt>
+            </titleStmt>
+
+            <sourceDesc>
+            <bibl> 
+                    <title typr="custom">[Donna seduta] </title>
+            </bibl>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+      
+        <body>
+            <div type="fronte">
+                <figure>
+                    <graphic url="7694-001F.jpg" />
+                    <figDesc>Donna seduta serena</figDesc>
+                    <head>Donna seduta</head>
+                </figure>
+            </div>
+        </body>
+</TEI>
+
+<!--studentessa: Evgeniia Anikeeva
+    matricola: 559161
+    corso: codifica di testi 19-20-->
