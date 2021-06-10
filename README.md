@@ -1,6 +1,7 @@
 # codifica_di_testi
 Codifica di testi-2021
 Repository che contiene gli esercizi ed il progetto per l'esame Codifica di testi dell'Università di Pisa
+PS a volte scrivo i commenti anche nella mia madre lingua per la chiarezza.
 
 1. Esercizio 1:
 Creare un file .xml ed inserire un prologo con la dichiarazione XML e un commento con le vostre informazioni.
